@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <script src="https://kit.fontawesome.com/24778f3134.js" crossorigin="anonymous"></script>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="products.css">
+
+   <!-- custom js file link  -->
+   <script src="products.js" defer></script>
+   <script src="cart.js" defer></script>
+
+</head>
+<body>
+<div class="container">
+   <h3 class="title">Our Products </h3>
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="lipstick.jpg" alt="">
+         <h3>fennel</h3>
+         <div class="price">₹1199</div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="lipstick1.jpg">
+         <h3>gshades</h3>
+         <div class="price">₹1256</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="lipstick2.jpg" alt="">
+         <h3>sentine</h3>
+         <div class="price">₹999</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="lipstick3.jpg" alt="">
+         <h3>glossier combo </h3>
+         <div class="price">₹4099</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="perfume1.jpg" alt="">
+         <h3>piron</h3>
+         <div class="price">₹559</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="perfume.jpg" alt="">
+         <h3>smellsgood</h3>
+         <div class="price">₹998</div>
+      </div>
+
+      <div class="product" data-name="p-7">
+         <img src="perfume3.jpg" alt="">
+         <h3>aroma</h3>
+         <div class="price">₹2099</div>
+      </div>
+
+      <div class="product" data-name="p-8">
+         <img src="perfume4.jpg">
+         <h3>halides</h3>
+         <div class="price">₹3489</div>
+      </div>
+
+      <div class="product" data-name="p-9">
+         <img src="blush.jpg" alt="">
+         <h3>berrylush</h3>
+         <div class="price">₹1507</div>
+      </div>
+
+      <div class="product" data-name="p-10">
+         <img src="blush1.jpg" alt="">
+         <h3>pockethi</h3>
+         <div class="price">₹449</div>
+      </div>
+
+      <div class="product" data-name="p-11">
+         <img src="nailpolish.jpg" alt="">
+         <h3>nastry</h3>
+         <div class="price">₹459</div>
+      </div>
+
+      <div class="product" data-name="p-12">
+         <img src="nailpolish1.jpg" alt="">
+         <h3>cherry</h3>
+         <div class="price">₹599</div>
+      </div>
+
+      <div class="product" data-name="p-13">
+         <img src="highlighter.jpg" alt="">
+         <h3>lumilight</h3>
+         <div class="price">₹2055</div>
+      </div>
+
+      <div class="product" data-name="p-14">
+         <img src="highlighter1.jpg">
+         <h3>Sourcestart</h3>
+         <div class="price">₹4466</div>
+      </div>
+
+      <div class="product" data-name="p-15">
+         <img src="highlighter2.jpg" alt="">
+         <h3></h3>
+         <div class="price">₹1500</div>
+      </div>
+
+      <div class="product" data-name="p-16">
+         <img src="highlighter3.jpg" alt="">
+         <h3>lipstick</h3>
+         <div class="price">₹2000</div>
+      </div>
+
+      <div class="product" data-name="p-17">
+         <img src="concealer.jpg" alt="">
+         <h3>Perfumei</h3>
+         <div class="price">₹800</div>
+      </div>
+
+      <div class="product" data-name="p-18">
+         <img src="compact.jpg" alt="">
+         <h3>nailpolish</h3>
+         <div class="price">₹800</div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" id="item1" data-target="p-1" data-id="1" data-name="Product 1" data-price="₹2000">
+      <i class="fas fa-times"></i>
+      <img src="lipstick.jpg" alt="">
+      <h3>lipstick</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>a vibrant red shade that will last upto 6hours.</p>
+      <div class="price">₹2000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart" ><button class="cart add-to-cart">add to cart</button></a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="lipstick1.jpg" alt="">
+      <h3>Serum</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹500</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart" oneClick ="addTocart(item2)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="lipstick2.jpg" alt="">
+      <h3>Serum</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹1500</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart" oneClick ="addTocart(item3)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="lipstick3.jpg" alt="">
+      <h3>lipstick</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹2000</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart" oneClick ="addTocart(item4)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="perfume1.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart" oneClick ="addTocart(item5)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="perfume.jpg" alt="">
+      <h3>nailpolish</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item6)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-7" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="perfume3.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item7)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-8" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="perfume4.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item8)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-9" data-id="1" data-name="Product 1" data-price="10.00">
+      <i class="fas fa-times"></i>
+      <img src="blush.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item9)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-10">
+      <i class="fas fa-times"></i>
+      <img src="blush1.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item10)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-11">
+      <i class="fas fa-times"></i>
+      <img src="nailpolish.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item11)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-12">
+      <i class="fas fa-times"></i>
+      <img src="nailpolish1.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item12)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-13">
+      <i class="fas fa-times"></i>
+      <img src="highlighter.jpg" alt="">
+      <h3>highlighter</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹588</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item13)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-14">
+      <i class="fas fa-times"></i>
+      <img src="highlighter1.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item14)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-15">
+      <i class="fas fa-times"></i>
+      <img src="highlighter2.jpg" alt="">
+      <h3>perfume</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">₹800</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item15)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-16">
+      <i class="fas fa-times"></i>
+      <img src="highlighter3.jpg" alt="">
+      <h3>highlighter</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>skin coverage Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde vero nobis </p>
+      <div class="price">₹1199</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item16)">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-17">
+      <i class="fas fa-times"></i>
+      <img src="concealer.jpg" alt="">
+      <h3>concealer</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>perfect coverage of dark spots and bruises on face </p>
+      <div class="price">₹1250</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item17)">add to cart</a>
+   </div>
+
+   <div class="preview" data-target="p-18">
+      <i class="fas fa-times"></i>
+      <img src="compact.jpg" alt="">
+      <h3>rose compact</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>matte look with pink blush effect</p>
+      <div class="price">₹899</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart"oneClick ="addTocart(item18)">add to cart</a>
+   </div>
+   
+
+</div>
+
+</body>
+</html>
